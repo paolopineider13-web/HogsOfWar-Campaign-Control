@@ -1,0 +1,18 @@
+{
+  "name": "hogs-of-war-campaign-control",
+  "version": "1.0.0",
+  "description": "Remote controller server for Hogs of War shared online campaign",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
